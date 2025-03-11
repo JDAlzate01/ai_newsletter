@@ -1,0 +1,104 @@
+<mjml>
+  <mj-head>
+    <mj-title>Modern Newsletter</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <mj-attributes>
+      <mj-all font-family="Roboto, Arial, sans-serif" />
+      <mj-text font-size="16px" color="#333333" line-height="1.5" />
+    </mj-attributes>
+    <mj-style> .link-hover:hover { color: #2196f3 !important; transition: all 0.3s ease-in-out; } </mj-style>
+  </mj-head>
+
+  <mj-body background-color="#f4f4f4">
+    <!-- Header Section -->
+    <mj-section background-color="#D3D3D3" padding-bottom="0">
+      <mj-column>
+        <mj-text align="center" color="#000000" font-size="30px" font-weight="bold" padding-top="70px">AI Newsletter</mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image src="./images/ai_logo.png" width="200px" alt="Newsletter Logo" align="center" padding="20px" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Section -->
+    <mj-section background-url="./images/ai_bg.png" background-size="cover" background-repeat="no-repeat" padding="100px 0">
+      <mj-column>
+        <mj-text align="center" color="#ffffff" font-size="40px" font-weight="bold" padding-bottom="20px"> Microsoft develops new AI models to compete with OpenAI</mj-text>
+        <mj-text align="center" color="#ffffff" font-size="20px"> Your Monthly Update on Everything Important </mj-text>
+        <mj-button background-color="#2196f3" color="white" border-radius="25px" font-size="16px" font-weight="bold" href="#" css-class="link-hover"> Read More </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Featured Article Section -->
+    <mj-section background-color="#ffffff" padding="20px" full-width="full-width">
+      <mj-column width="100%">
+        <mj-text font-size="24px" font-weight="bold" align="center" padding="20px"> The AI Race is On !</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section background-color="#ffffff" padding="20px" full-width="full-width">
+      <mj-column width="50%" background-color="#ffffff">
+        <mj-text font-weight="bold" font-size="20px" padding-top="20px"> Microsoft vs OpenAI </mj-text>
+        <mj-text> Microsoft is reportedly developing in-house AI reasoning models that it believes can compete with industry leaders including its partner OpenAI. </mj-text>
+        <mj-button background-color="#2196f3" color="white" border-radius="25px" href="#" css-class="link-hover"> Read Article </mj-button>
+      </mj-column>
+
+      <mj-column width="50%" background-color="#ffffff">
+        <mj-text font-weight="bold" font-size="20px" padding-top="20px"> Complex reasoning models </mj-text>
+        <mj-text>
+          It is also developing reasoning models – AI models that use logical processes and chain-of-thought techniques to simulate human thinking, make decisions and draw conclusions by using inference mechanisms and knowledge
+          representation.
+        </mj-text>
+        <mj-button background-color="#2196f3" color="white" border-radius="25px" href="#" css-class="link-hover"> Read Article </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- News Grid Section -->
+    <mj-section background-color="#ffffff" padding-top="0">
+      <mj-column width="33.33%">
+        <mj-image src="./images/ai_article_img.png" alt="News 1" />
+        <mj-text font-weight="bold">The future of AI</mj-text>
+        <mj-text font-size="12px">AI is rapidly evolving with breakthroughs in machine learning and neural networks. Experts predict AI will transform healthcare, transportation, and how we work by 2030.</mj-text>
+      </mj-column>
+      <mj-column width="33.33%">
+        <mj-image src="./images/ai_article_img.png" alt="News 1" />
+        <mj-text font-weight="bold">AI adoption in major industries</mj-text>
+        <mj-text font-size="12px"
+          >Major industries like finance, healthcare, and manufacturing are rapidly adopting AI technologies. Companies are investing heavily in automation, predictive analytics, and AI-powered decision making systems to improve efficiency
+          and stay competitive.</mj-text
+        >
+      </mj-column>
+      <mj-column width="33.33%">
+        <mj-image src="./images/ai_article_img.png" alt="News 1" />
+        <mj-text font-weight="bold">AI security threats</mj-text>
+        <mj-text font-size="12px">As AI systems become more sophisticated, security threats are also increasing. Companies are investing in AI security solutions to protect their systems from attacks.</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- CTA Section -->
+    <mj-section background-color="#2196f3" padding="40px 0">
+      <mj-column>
+        <mj-text color="#ffffff" font-size="24px" font-weight="bold" align="center"> Stay Updated </mj-text>
+        <mj-text color="#ffffff" align="center"> Don't miss our next newsletter! </mj-text>
+        <mj-button background-color="#ffffff" color="#2196f3" border-radius="25px" font-weight="bold" href="#" css-class="link-hover"> Subscribe Now </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer Section -->
+    <mj-section background-color="#333333" padding="20px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center">
+          <mj-social-element name="facebook" href="#" background-color="#000000"></mj-social-element>
+          <mj-social-element name="twitter" href="#" background-color="#000000"></mj-social-element>
+          <mj-social-element name="linkedin" href="#" background-color="#000000"></mj-social-element>
+          <mj-social-element name="instagram" href="#" background-color="#000000"></mj-social-element>
+        </mj-social>
+        <mj-text color="#ffffff" align="center" font-size="12px"> © 2024 Your Company. All rights reserved. </mj-text>
+        <mj-text color="#ffffff" align="center" font-size="12px">
+          <a href="#" style="color: #ffffff; text-decoration: none">Unsubscribe</a> |
+          <a href="#" style="color: #ffffff; text-decoration: none">Privacy Policy</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
